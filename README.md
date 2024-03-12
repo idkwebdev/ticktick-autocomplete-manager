@@ -1,1 +1,2 @@
-# ticktick-events
+# TickTick Event Manager
+In progress...
