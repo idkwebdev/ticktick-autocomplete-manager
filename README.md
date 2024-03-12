@@ -1,2 +1,2 @@
-# TickTick Event Manager
+# ☑️TickTick Autocomplete Manager
 In progress...
