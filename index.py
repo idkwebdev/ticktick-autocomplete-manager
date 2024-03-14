@@ -51,8 +51,8 @@ e_reset = '\u001b[0m'
 # Check to see if the tags on the task has the tags we want to mark completed
 # and it is past the due date. If so, mark it as completed
 for task in all_tasks:
-  task_due_date = datetime.fromisoformat(task['dueDate'])
-  task_due_date = task_due_date.replace(tzinfo=None)
+  task_due_date_str = str(task['dueDate'])[:-5]
+  task_due_date = datetime.fromisoformat(task_due_date_str)
 
   if task['isAllDay']: task_due_date.replace(hour=11, minute=59, second=59)
 
