@@ -8,7 +8,7 @@ current_date = datetime.now()
 
 
 # Feel free to add the tags you want this script to be applied to
-tags_to_check = ['event']
+tags_to_check = ['✍\uD83C\uDFFEtests', '\uD83D\uDCC6events']
 # You can also change this if you'd like to change the tolarence of the time-checking
 time_buffer = timedelta(minutes=2)
 
