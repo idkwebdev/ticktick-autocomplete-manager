@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 import os, requests, dotenv
 from datetime import datetime, timedelta
 
