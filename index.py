@@ -42,7 +42,6 @@ for project in task_projects:
 
   all_tasks += project_data['tasks']
 
-print(all_tasks)
 
 e_green = '\u001b[32m'
 e_red = '\u001b[31m'
