@@ -9,7 +9,7 @@ current_date = datetime.now()
 
 
 # Feel free to add the tags you want this script to be applied to
-tags_to_check = ['✍\uD83C\uDFFEtests', '\uD83D\uDCC6events']
+tags_to_check = ['✍🏾tests', '\uD83D\uDCC6events']
 # You can also change this if you'd like to change the tolarence of the time-checking
 time_buffer = timedelta(minutes=2)
 
@@ -42,6 +42,7 @@ for project in task_projects:
 
   all_tasks += project_data['tasks']
 
+print(all_tasks)
 
 e_green = '\u001b[32m'
 e_red = '\u001b[31m'
