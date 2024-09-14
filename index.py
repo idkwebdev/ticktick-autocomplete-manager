@@ -64,3 +64,4 @@ for task in all_tasks:
 time_to_complete = datetime.now() - current_date
 print()
 print(f"Done! Completed in {round(time_to_complete.total_seconds(), 2)} seconds" )
+exit()
